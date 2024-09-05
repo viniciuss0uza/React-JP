@@ -11,7 +11,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<ApiRickAndMorty />} />
         <Route path="/about" element={<About />} />
       </Routes>
 
